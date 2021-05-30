@@ -2,11 +2,7 @@
   <img alt="Marvel Heroes" title="Marvel Heroes" src="https://imgur.com/gM7pvKc.png" width="350px" />
 </h1>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+
 
 ## Tecnologias
 
