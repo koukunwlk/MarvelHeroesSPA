@@ -1,23 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   border: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: Roboto;
 }
 
 body {
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
 }
 
 main {
@@ -77,12 +71,13 @@ h2 {
   align-self: center;
   transition: 300ms ease-in-out;
   margin-bottom: 1vh;
+  cursor: pointer;
 }
 
 .modal {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -95,7 +90,7 @@ h2 {
   display: flex;
   max-width: 70%;
   max-height: 60%;
-  background-color: salmon;
+  background-color: #ecf0f1;
   flex-direction: row;
   flex: 1;
   justify-content: space-around;
@@ -111,8 +106,8 @@ h2 {
 }
 .close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 175px;
+  right: 250px;
   cursor: pointer;
 }
 .comic {
@@ -126,13 +121,7 @@ h2 {
   margin-right: 50px;
 }
 
-.comic a {
-  color: white;
-  transition: ease-in;
+.comic p {
   margin-top: 16px;
   margin: 16px 8px;
-}
-
-.comic a:hover {
-  color: #2c3e50;
 }

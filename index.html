@@ -14,31 +14,14 @@
       </div>
     </header>
     <main>
-      <div class="cards-container">
-        <!-- <div class="card">
-                <input id="hero-id"type="number" value="1" hidden>
-                <img src="https://source.unsplash.com/random" alt="Hero Image">
-                <h2>Hero's name</h2>
-                <p>Hero's Description</p>
-                <button type="submit">Ver mais</button>
-            </div> -->
-      </div>
-      <button class="load-more btn">+</button>
+      <div class="cards-container"></div>
+      <button class="load-more btn" onclick="moreContent()">+</button>
     </main>
-    <div class="modal hidden ">
-      <div class="modal-content ">
-        <!-- <div class="card">
-          <img src="https://source.unsplash.com/random" alt="Hero Image" />
-          <h1>Hero's name</h1>
-          <p>Hero's Description</p>
-        </div> -->
-        
-        <span 
-        ><img
-          src="./public/outline_close_white_24dp.png"
-          alt="Close"
-          class="close"
-      /></span>
+    <div class="modal hidden">
+      <div class="modal-content"></div>
+      <span class="close" onclick="closeModal()">
+        <img src="./public/outline_close_black_24dp.png" alt="Close" />
+      </span>
     </div>
   </body>
   <script src="./script.js"></script>
