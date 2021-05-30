@@ -13,6 +13,13 @@ let count = 0;
 function getChars(count) {
   fetch(
     `${baseUrl}/v1/public/characters?orderBy=name&limit=20&offset=${count}&ts=${ts}&apikey=${apiKey}&hash=${hash}`
+    /*
+    Segundo a documentação da api a autenticação deve ser feita utilizando
+    * Um timestamp "ts"
+    * A chave publica da api "apikey" que você pode encontrar no portal developer.marvel.com
+    * Um hash MD5 utilizando (timestamp + chave publica + chave privada)
+    "&ts=${ts}&apikey=${apiKey}&hash=${hash}"
+    */
   )
     .then((response) => {
       if (!response.ok) {
