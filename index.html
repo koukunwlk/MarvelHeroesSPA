@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Marvel Heroes</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-         <div class="logo-container">
-             <img src="./public/logo.png" alt="Logo" >
-         </div>
+      <div class="logo-container">
+        <img src="./public/logo.png" alt="Logo" />
+      </div>
     </header>
     <main>
-        <div class="cards-container">
-            <!-- <div class="card">
+      <div class="cards-container">
+        <!-- <div class="card">
                 <input id="hero-id"type="number" value="1" hidden>
                 <img src="https://source.unsplash.com/random" alt="Hero Image">
                 <h2>Hero's name</h2>
                 <p>Hero's Description</p>
                 <button type="submit">Ver mais</button>
             </div> -->
-        </div>
-        <button class="load-more btn">+</button>
+      </div>
+      <button class="load-more btn">+</button>
     </main>
-    <div class="modal">
-        <div class="modal-content hidden">
-            <img src="https://source.unsplash.com/random" alt="Hero Image">
-            <h1>Hero's name</h1>
-            <p>Hero's Description</p>
-            <div class="comics-list">
-                <p>comic</p>
-                <p>comic</p>
-                <p>comic</p>
-                <p>comic</p>
-                <p>comic</p>
-            </div>
-        </div>
+    <div class="modal hidden ">
+      <div class="modal-content ">
+        <!-- <div class="card">
+          <img src="https://source.unsplash.com/random" alt="Hero Image" />
+          <h1>Hero's name</h1>
+          <p>Hero's Description</p>
+        </div> -->
+        
+        <span 
+        ><img
+          src="./public/outline_close_white_24dp.png"
+          alt="Close"
+          class="close"
+      /></span>
     </div>
-</body>
-    <script src="./script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
