@@ -35,9 +35,10 @@ main {
   width: 16vw;
   height: 50vh;
   margin: 0.5vh 0.5vw;
-  background-color: white;
+  background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
+  border-radius: 8px 8px;
 }
 .card img {
   height: 50%;
